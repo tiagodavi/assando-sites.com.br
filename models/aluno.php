@@ -4,8 +4,8 @@
  * 
  * @author			Thiago Belem <contato@thiagobelem.net>
  * 
- * @package 		AssandoSites
- * @subpackage 	Model
+ * @package		AssandoSites
+ * @subpackage		Model
  */
 
 /**

@@ -50,7 +50,10 @@
  *
  */
 	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', ROOT);
+		if (preg_match('/^assando-sites\.com\.br$/', getenv('HTTP_HOST')))
+			define('CAKE_CORE_INCLUDE_PATH', ROOT);
+		else
+			define('CAKE_CORE_INCLUDE_PATH', '/var/www/cake/1.3');
 	}
 
 /**

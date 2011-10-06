@@ -48,3 +48,12 @@
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  *
  */
+
+/**
+ * Regras de pluralização
+ */
+Inflector::rules('plural', array(
+	'irregular' => array(
+		'status' => 'status',
+		'informacao' => 'informacoes'
+	)));

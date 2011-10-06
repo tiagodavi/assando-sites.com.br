@@ -13,4 +13,8 @@
  */
 class AlunosController extends AppController {
 	
+	public function admin_dashboard() {
+		
+	}
+	
 }

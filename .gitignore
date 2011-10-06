@@ -1,0 +1,18 @@
+# ECLIPSE IDE project files
+.project
+.cache
+.cache/*
+.settings
+.settings/*
+.buildpath
+
+# system SWAP, TMP and BACKUP files
+*~
+*.swp
+*.bak
+
+# CakePHP tmp content
+/tmp/cache/*
+/tmp/logs/*
+/tmp/sessions/*
+/tmp/tests/*

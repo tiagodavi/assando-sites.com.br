@@ -19,13 +19,7 @@ class AppController extends Controller {
 	 * Troca o layout do admin 
 	 */
 	public function beforeFilter() {
-
-		$this->loadModel('Student');
-		$this->Student->find('all');
-		$this->Student->MyClass->find('all');
-		$this->Student->MyClass->Lesson->find('all');
-		$this->Student->Lesson->find('all');
-		
+				
 		// Troca o layout das telas de admin
 		if (isset($this->params['prefix']) && $this->params['prefix'] == 'admin') {
 			$this->layout = 'admin';

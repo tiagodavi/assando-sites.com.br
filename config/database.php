@@ -77,9 +77,9 @@ class DATABASE_CONFIG {
 		'driver' => 'mysqli',
 		'persistent' => true,
 		'host' => 'localhost',
-		'login' => 'curso-cakephp',
-		'password' => 'curso-cakephp',
-		'database' => 'curso-cakephp',
+		'login' => 'assando-sites',
+		'password' => 'assando-sites',
+		'database' => 'assando-sites',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

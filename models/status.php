@@ -25,6 +25,13 @@ class Status extends AppModel {
 	 * 
 	 * @var array
 	 */
-	public $order = array('Status.type' => 'ASC', 'Status.name' => 'ASC');
+	public $order = array('Status.type' => 'ASC', 'Status.id' => 'ASC');
+	
+	/**
+	 * Status
+	 */
+	const STATUS_STUDENT_INSCRICAO_PENDENTE = 8;
+	const STATUS_STUDENT_INSCRICAO_CONFIRMADA = 9;
+	const STATUS_STUDENT_DELETADO = 10;
 	
 }

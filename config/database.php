@@ -81,7 +81,18 @@ class DATABASE_CONFIG {
 		'password' => 'assando-sites',
 		'database' => 'assando-sites',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
+	);
+
+	var $old = array(
+		'driver' => 'mysqli',
+		'persistent' => true,
+		'host' => 'localhost',
+		'login' => 'curso-cakephp',
+		'password' => 'curso-cakephp',
+		'database' => 'curso-cakephp',
+		'prefix' => '',
+		'encoding' => 'utf8',
 	);
 
 	var $test = array(

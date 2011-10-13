@@ -35,5 +35,5 @@
 	/**
 	 * Rotas do painel de controle
 	 */
-	Router::connect('/admin', array('controller' => 'alunos', 'action' => 'dashboard', 'admin' => true));
+	Router::connect('/admin', array('controller' => 'students', 'action' => 'dashboard', 'admin' => true));
 	
